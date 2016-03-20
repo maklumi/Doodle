@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_ink_color"
+        android:icon="@drawable/ic_format_color_fill_black_24dp"
+        android:title="@string/menuitem_color"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_line_width"
+        android:icon="@drawable/ic_format_size_black_24dp"
+        android:title="@string/menuitem_line_width"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_eraser"
+        android:icon="@drawable/ic_format_strikethrough_black_24dp"
+        android:title="@string/menuitem_erase"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_page_clear"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/menuitem_clear"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_save_image"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/menuitem_save_image"
+        app:showAsAction="always"/>
+
+
+</menu>
